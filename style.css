@@ -10,7 +10,6 @@ body {
 header {
     width: 100%;
     background-color: #f1c40f;
-    color: black;
     padding: 10px 20px;
     position: fixed;
     top: 0;
@@ -20,7 +19,7 @@ header {
     align-items: center;
     height: 60px;
     z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(14, 14, 14, 0.1);
 }
 
 /* Header 中的網站名稱 */
@@ -30,7 +29,9 @@ header h4.logo {
     font-weight: bold;
     color: #ffffff;
 }
-
+header nav{
+    transform: translateX(-40px);
+}
 /* Header 中的導覽列 */
 header nav ul {
     list-style: none;
@@ -70,7 +71,7 @@ header nav ul li a:hover {
     top: 60px; /* 避開 header */
     left: 0;
     font-size: 20px;
-    overflow-y: auto;
+    
 }
 
 #sidebar h2 {
@@ -136,7 +137,7 @@ header nav ul li a:hover {
     flex: 1;
     font-size: 16px;
     line-height: 1.6;
-    color: #333333;
+    color: #100f0f;
 }
 
 /* === header 左側區塊 (中央氣象局資訊) === */
@@ -215,3 +216,6 @@ main {
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
+/* Chrome、Safari */
+
+
